@@ -61,5 +61,7 @@ public class MyRESTController {
         }
         employeeService.deleteEmployee(id);
         return "employee with ID = " + id + "was deleted.";
+
+        //test
     }
 }
